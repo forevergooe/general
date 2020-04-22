@@ -97,7 +97,7 @@ delete_surplus_2(){
 # achieve
 # http://elrepo.mirror.angkasa.id/elrepo/archive/kernel/el6/x86_64/RPMS/
 # http://elrepo.mirror.angkasa.id/elrepo/archive/kernel/el7/x86_64/RPMS/
-# my backup: https://github.com/nanqinlang/CentOS-kernel
+# my backup: https://github.com/forevergooe/CentOS-kernel
 install_image(){
 	#[[ ! -f kernel-ml-4.12.10-1.el${bit}.elrepo.x86_64.rpm ]] && wget http://elrepo.mirror.angkasa.id/elrepo/archive/kernel/el${bit}/x86_64/RPMS/kernel-ml-4.12.10-1.el${bit}.elrepo.x86_64.rpm
 	[[ ! -f kernel-ml-4.12.10-1.el${bit}.elrepo.x86_64.rpm ]] && wget https://raw.githubusercontent.com/forevergooe/CentOS-kernel/master/kernel-ml-4.12.10-1.el${bit}.elrepo.x86_64.rpm
